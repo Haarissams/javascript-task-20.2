@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa; /* Light background for a clean look */
+    font-family: 'Roboto', sans-serif; /* Professional, modern font */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40; /* Dark gray for professional headings */
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase; /* Add uppercase for emphasis */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 10px; /* Smooth corners */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+    background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift on hover for a modern effect */
+}
+
+.card-header {
+    background-color: #007bff; /* Bootstrap blue for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.card img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd; /* Separator between image and text */
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d; /* Light gray for loading text */
+}
+
+p {
+    font-size: 1rem;
+    color: #212529;
+    line-height: 1.6;
+}
+
+strong {
+    font-weight: bold;
+    color: #495057; /* Darker gray for strong emphasis */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust heading for smaller screens */
+    }
+    .card-body {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
